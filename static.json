@@ -1,4 +1,14 @@
 {
   "root": "resources/public",
-  "clean_urls": true
+  "clean_urls": true,
+  "redirects": {
+    "/arch": {
+      "url": "${ARCH_INSTALL_SCRIPT}",
+      "status": 302
+    },
+    "/post-install": {
+      "url": "${POST_INSTALL_SCRIPT}",
+      "status": 302
+    }
+  }
 }
