@@ -3,11 +3,11 @@
   "clean_urls": true,
   "redirects": {
     "/arch": {
-      "url": "${ARCH_INSTALL_SCRIPT}",
+      "url": "${ARCH_INSTALL_HELPER_SCRIPT}",
       "status": 302
     },
     "/post-install": {
-      "url": "${POST_INSTALL_SCRIPT}",
+      "url": "${POST_INSTALL_HELPER_SCRIPT}",
       "status": 302
     }
   }
