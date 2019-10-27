@@ -9,6 +9,10 @@
     "/post-install": {
       "url": "${POST_INSTALL_HELPER_SCRIPT}",
       "status": 302
+    },
+    "/houdini.tar.gz": {
+      "url": "${HOUDINI_TARBALL}",
+      "status": 302
     }
   }
 }
